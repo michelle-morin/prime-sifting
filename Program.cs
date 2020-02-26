@@ -21,8 +21,9 @@ namespace PrimeSifting
         Console.WriteLine("These are all the prime numbers between 2 and " + number + ":");
         foreach (int prime in primes)
         {
-          Console.WriteLine(prime);
+          Console.Write(prime + " ");
         }
+        Console.WriteLine("");
       }
     }
   }
